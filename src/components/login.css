@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #000000;
+    
 }
 
 .login-container {
@@ -24,10 +24,6 @@ body {
     justify-content: center;
 }
 
-.login-logo {
-    width: 48px;
-    height: 48px;
-}
 
 .login-title {
     font-size: 30px;
@@ -63,38 +59,33 @@ body {
     color: #ffffff;
 }
 
+
 .form-group input {
     width: 100%;
     padding: 5px 12px;
     font-size: 14px;
     line-height: 20px;
     border: 1px solid #ffffff;
-    border-radius: 6px;
+    border-radius: 99px;
     box-sizing: border-box;
     height: 30px;
 }
 
-/* Añade este código a tu CSS existente */
+
 .form-group input:hover {
     border-color: #2d6ff7;
-    /* Azul brillante */
     box-shadow: 0 0 15px rgba(45, 111, 247, 0.7);
-    /* Brillo más intenso */
-    background-color: #f0f8ff;
-    /* Fondo azul muy claro */
+     background-color: #f0f8ff;
     transform: translateY(-2px);
-    /* Ligera elevación del campo */
     transition: all 0.3s ease;
-    /* Transición suave */
+
 }
 
-/* También mejora el efecto al estar en foco */
+
 .form-group input:focus {
     outline: none;
     border-color: #1a5ae3;
-    /* Azul más intenso */
     box-shadow: 0 0 18px rgba(26, 90, 227, 0.8);
-    /* Brillo más intenso y amplio */
     background-color: #f0f8ff;
     transform: translateY(-2px);
 }
@@ -135,4 +126,33 @@ body {
 
 .sign-in-button:hover {
     background-color: #2d1b94;
+}
+
+.register-button-conteiner{
+    position: fixed !important; 
+  top: 20px !important;
+  right: 20px !important;
+  z-index: 9999 !important;
+}
+
+.register-button{
+    background-color: #4CAF50 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 8px 16px !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+  text-transform: none !important;
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.register-button:hover{
+
+    background-color: #45a049;
+}
+.login-container{
+    position: relative;
 }
