@@ -16,8 +16,8 @@ function Dashboard() {
 
                <button className="menu-button" onClick={() => handleNavigation('/inventario')}>inventario</button>
                 <button className="menu-button" onClick={() => handleNavigation('/facturar')}>facturar</button>
-                <button className="menu-button" onClick={() => handleNavigation('/clientes')}>clientes</button>
-                <button className="menu-button" onClick={() => handleNavigation('/productos')}>productos</button>
+                <button className="menu-button" onClick={() => handleNavigation('/clientForm')}>clientes</button>
+                <button className="menu-button" onClick={() => handleNavigation('/products')}>productos</button>
                 <button className="menu-button" onClick={() => handleNavigation('/ayuda')}>Ayuda</button>
                 <button className="menu-button" onClick={() => handleNavigation('/soporte')}>soporte</button>
 
